@@ -11,7 +11,7 @@
 			"selector": "div",
 			"default": ""
 		}
-	}
+	},
 	"category": "widgets",
 	"icon": "welcome-view-site",
 	"description": "A block that displays a simple text message",
