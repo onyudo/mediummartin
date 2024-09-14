@@ -39,3 +39,18 @@ export default function Edit() {
 		</p>
 	);
 }
+
+import { TextControl } from '@wordpress/components';
+
+export default function Edit( { attributes, setAttributes } ) {
+	return (
+		<div { ...useBlockProps() }>
+			<TextControl
+				label={ __( 'Message', 'yourblockname' ) }
+				value={ attributes.message }
+				onChange={ ( val ) => setAttributes( { message: val } ) }
+			/>
+		</div>
+	);
+}
+
