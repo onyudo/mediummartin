@@ -4,6 +4,14 @@
 	"name": "martin-basicblock/mediummartin",
 	"version": "0.1.0",
 	"title": "Martin's Basic Block",
+	"attributes": {
+		"message": {
+			"type": "string",
+			"source": "text",
+			"selector": "div",
+			"default": ""
+		}
+	}
 	"category": "widgets",
 	"icon": "welcome-view-site",
 	"description": "A block that displays a simple text message",
