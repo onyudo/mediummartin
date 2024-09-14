@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "martin-basicblock/mediummartin",
+  "version": "0.1.0",
+  "title": "Martin's Basic Block",
+  "category": "widgets",
+  "icon": "welcome-view-site",
+  "description": "A block that displays a simple text message",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "mediummartin",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
